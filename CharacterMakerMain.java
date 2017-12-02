@@ -14,13 +14,14 @@ public class CharacterMakerMain{
     character.getName(console);
     character.randomAbilityStats();
     SubRaceHighElf race = new SubRaceHighElf();
-    System.out.println(race.race);
+    System.out.println(race.race + "\n");
     for (int i = 0; i < 6; i++) {
       character.totalAS[i] = character.abilityStats[i] + race.stats[i] + race.subStats[i];
-      System.out.println(character.ability[i] + "  "  + character.totalAS[i]);
+      character.modifiers[i] = (character.totalAS[i] - 10) / 2;
+      System.out.printf("%-5s %4d %3d\n",character.ability[i], character.totalAS[i], character.modifiers[i]);
     }
-    System.out.println("Speed " + race.speed + "ft." + " / " + race.speed / 5 + " squares");
-    System.out.println("You speak " + race.lang);
+    System.out.println("\nSpeed " + race.speed + "ft." + " / " + race.speed / 5 + " squares\n");
+    System.out.println("You speak " + race.lang + "\n");
     System.out.println(race.special + "\n" + race.subSpecial);
   }
 }
