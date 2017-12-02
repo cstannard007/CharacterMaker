@@ -13,11 +13,10 @@ public class Bugbear {
     // Race Vision
     String vision = "Darkvision: 60 feet";
     // Special abilities
-    String special1 = "Long-Limbed: When you make a melee attack on your turn, your reach for it is 5 feet greater than normal";
-    String special2 = "Powerful Build: You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift";
-    String special3 = "Sneaky: You are proficient in the Stealth skill";
-    String special4 = "Surprise Attack: If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat";
+    String special = "Long-Limbed: When you make a melee attack on your turn, your reach for it is 5 feet greater than normal\n" +
+                     "Powerful Build: You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift\n" +
+                     "Sneaky: You are proficient in the Stealth skill\n" +
+                     "Surprise Attack: If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat";
     // languages
-    String lang1 = "Common";
-    String lang2 = "Goblin";
+    String lang = "Common, Goblin";
 }

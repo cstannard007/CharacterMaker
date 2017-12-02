@@ -15,10 +15,10 @@ public class Fighter {
     String ProfTools = "";
     String profSkills = "Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival";
     // starting Equipment
-    String EquipChoice1 = "(a) Chain Mail or (b) leather, Longbow, and 20 Arrows";
-    String EquipChoice2 = "(a) a martial weapon and a Shield or (b) two martial Weapons";
-    String EquipChoice3 = "(a) a Light Crossbow and 20 bolts or (b) two handaxes";
-    String EquipChoice4 = "(a) a Dungeoneer's Pack or (b) an Explorer's Pack";
+    String EquipChoice = "(a) Chain Mail or (b) leather, Longbow, and 20 Arrows\n" +
+                         "(a) a martial weapon and a Shield or (b) two martial Weapons\n" +
+                         "(a) a Light Crossbow and 20 bolts or (b) two handaxes\n" +
+                         "(a) a Dungeoneer's Pack or (b) an Explorer's Pack";
     // alternative starting money
     String AlternativeEquip = "You may start with 5d4 x 10 gp to buy your own Equipment.";
     // array for fighter feats per level
